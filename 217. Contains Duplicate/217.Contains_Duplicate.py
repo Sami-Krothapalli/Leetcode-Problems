@@ -9,7 +9,6 @@ class Solution(object):
         for i in range(len(nums) - 1): #Operation of O(n)
             if nums[i] == nums[i+1]:
                 return True
-            else:
-                return False
+        return False
 
 #Time Complexity: O(n log n)
